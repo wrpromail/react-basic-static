@@ -6,6 +6,9 @@
 body {
     margin: 0;
     font-family: Inter, sans-serif;
+    height: 100vh;
+    background-color: #282D35;
+
 }
 
 
@@ -38,3 +41,30 @@ nav > img {
     margin-right: 7px;
 }
 
+main {
+    padding: 57px 27px;
+    color: white;
+    background-image: url(./logo512.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+
+.main-title {
+    font-size: 39px;
+    margin: 0;
+}
+
+.main-facts{
+    marigin-top: 46px;
+    max-width: 400px;
+}
+
+.main-facts > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main-facts > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
